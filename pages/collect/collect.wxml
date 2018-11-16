@@ -1,0 +1,16 @@
+<view class="collect">
+  <view class="collectlist">
+    <view class="collectdetail" wx:for-index="indx" wx:for="{{collectlist}}" wx:key="unique">
+      <view class="icon">
+        <image wx:if="{{indx+1<=3}}" class="right" src="../../icon/{{indx+1}}.png" alt=""></image>
+        <text class="icon"wx:else></text>
+      </view>
+      <view class="collectcontanet">
+        <view class="title">{{item.hotcontent}}</view>
+        <view class="hotmsg">
+          <text>{{item.createtime}}</text>
+        </view>
+      </view>
+    </view>
+  </view>
+</view>

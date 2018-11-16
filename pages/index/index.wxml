@@ -1,13 +1,14 @@
-<!--index.wxml-->
 <view class="container">
-  <view class="userinfo">
-    <button wx:if="{{!hasUserInfo && canIUse}}" open-type="getUserInfo" bindgetuserinfo="getUserInfo"> 获取头像昵称 </button>
-    <block wx:else>
-      <image bindtap="bindViewTap" class="userinfo-avatar" src="{{userInfo.avatarUrl}}" mode="cover"></image>
-      <text class="userinfo-nickname">{{userInfo.nickName}}</text>
-    </block>
-  </view>
-  <view class="usermotto">
-    <text class="user-motto" bindtap='getMsg'>{{motto}}</text>
+  <view class="moodlistcontainer">
+    <view class="mooditem" wx:for="{{moodlist}}" wx:key="unique" bindtap='toMoodDetail' id='{{item.moodid}}'>
+      <view class="mooddetail">{{item.moodtitle}}</view>
+      <view class="moodcontent">
+        {{item.moodcontent}}
+      </view>
+      <view class="moodAttach">
+        <text>已读：{{item.readnum}}</text>
+        <text>{{item.createtime}}</text>
+      </view>
+    </view>
   </view>
 </view>

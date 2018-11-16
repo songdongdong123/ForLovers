@@ -1,0 +1,42 @@
+page{
+  background: #eee;
+}
+.baseinput{
+  align-items: center;
+  margin:auto 20rpx;
+  display: flex;
+  font-size: 15px;
+  color:#333;
+  border-bottom:1px solid #ccc;
+  padding:20rpx 0;
+}
+.section{
+  background: #fff;
+}
+input{
+  flex: 1;
+  margin-left: 5rpx;
+}
+.basetextarea{
+  background: #fff;
+  margin:auto 20rpx;
+  font-size: 15px;
+  display: flex;
+  align-items: flex-start;
+  margin-top: 20px;
+  color:#333;
+}
+textarea{
+  flex: 1;
+  min-height:200px;
+  margin-left: 5rpx;
+}
+button{
+  margin:auto 20rpx;
+  margin-top: 20rpx;
+  color:#fff;
+  background: #66CCFF;
+  font-size: 15px;
+  height:50px;
+  line-height: 50px;
+}

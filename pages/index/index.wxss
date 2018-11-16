@@ -1,21 +1,39 @@
-/**index.wxss**/
-.userinfo {
+
+.mooditem{
+  margin:auto 20rpx;
+  padding:30rpx 0;
+  font-size: 15px;
+  color:#333;
+}
+.mooddetail{
+  font-size: 15px;
+  color:#333;
+}
+.moodcontent{
+  color:#666;
+  height:75rpx;
+  font-size: 12px;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  overflow: hidden;
+}
+.mooditem:not(:last-child){
+  border-bottom:1rpx solid #ccc;
+}
+.moodAttach{
+  font-size: 12px;
+  margin-top: 15rpx;
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  color:#999;
+  justify-content: space-between;
 }
-
-.userinfo-avatar {
-  width: 128rpx;
-  height: 128rpx;
-  margin: 20rpx;
-  border-radius: 50%;
+.fabu{
+  position: fixed;
+  bottom:0;
+  right:10rpx;
 }
-
-.userinfo-nickname {
-  color: #aaa;
-}
-
-.usermotto {
-  margin-top: 200px;
+.fabuicon{
+  width:100rpx;
+  height:100rpx;
 }

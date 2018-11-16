@@ -1,0 +1,51 @@
+/* pages/me/me.wxss */
+page{
+  background: #eee;
+}
+.account{
+  display: flex;
+  align-items: center;
+  padding:0 20rpx;
+  background: #66CCFF;
+  height:150rpx;
+  border-bottom:1rpx solid #fff;
+}
+.nickname{
+  margin-left: 20rpx;
+  color:#fff;
+}
+image{
+  width:100rpx;
+  height:100rpx;
+  border-radius: 100%;
+}
+.fansmsg{
+  height:100rpx;
+  background: #66CCFF;
+  display: flex;
+  align-items: center;
+  padding:0 100rpx;
+  justify-content: space-between;
+  color:#fff;
+  font-size: 15px;
+}
+.memsgconatiner{
+  background: #fff;
+}
+.memsg{
+  background: #fff;
+  margin:auto 20rpx;
+  font-size: 15px;
+  height:90rpx;
+  color:#999;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.right{
+  width:20px;
+  height:20px;
+}
+.memsg:not(:last-child){
+  border-bottom:1px solid #f5f5f5;
+}

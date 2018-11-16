@@ -1,0 +1,71 @@
+.usermsg{
+  margin:auto 20rpx;
+  padding-top: 50rpx;
+}
+.phonecontainer{
+  display: flex;
+  align-items: center;
+}
+.phonecontainer>text{
+  width:180rpx;
+  color:#333;
+  font-size: 15px;
+}
+.phone{
+  height: 40px;
+  border-bottom:1rpx solid #ccc;
+  padding-left: 20rpx;
+  box-sizing: border-box;
+  flex: 1;
+  color:#333;
+}
+.address{
+  box-sizing: border-box;
+  border-bottom:1rpx solid #ccc;
+  padding-left: 20rpx;
+  flex: 1;
+  height: 40px;
+  color:#333;
+}
+button{
+  margin-top: 30px;
+  color:#fff;
+  background: #66CCFF;
+}
+picker{
+  height: 40px;
+  line-height: 40px;
+  margin-top: 15px;
+}
+.probice{
+  border-bottom:1rpx solid #ccc;
+  flex: 1;
+  padding-left: 20rpx;
+}
+.proci{
+  color:#ccc;
+  padding-left: 20rpx;
+  border-bottom:1rpx solid #ccc;
+  flex: 1;
+}
+.addresscontainer{
+  display: flex;
+  margin-top: 15px;
+  align-items: center;
+}
+.addresscontainer>text{
+  width:180rpx;
+  color:#333;
+  font-size: 15px;
+}
+.picker{
+  font-size: 15px;
+  color:#333;
+  display: flex;
+  align-items: center;
+}
+.labes{
+  width:180rpx;
+  color:#333;
+  font-size: 15px;
+}

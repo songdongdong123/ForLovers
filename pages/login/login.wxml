@@ -1,0 +1,7 @@
+ <view>
+    <view wx:if="{{canIUse}}">
+      <button open-type="getUserInfo"  hover-class="btn-hover" bindgetuserinfo="bindGetUserInfo"></button>
+      <view class="authlogin">点击授权登陆</view> 
+    </view>
+    <view wx:else>请升级微信版本</view>
+ </view>

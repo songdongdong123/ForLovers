@@ -27,13 +27,65 @@
 			"current": -1,
 			"list": []
 		},
+		"plugin": {
+			"current": -1,
+			"list": []
+		},
 		"game": {
 			"currentL": -1,
 			"list": []
 		},
 		"miniprogram": {
-			"current": -1,
-			"list": []
+			"current": 7,
+			"list": [
+				{
+					"id": -1,
+					"name": "注册",
+					"pathName": "pages/register/register",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "log",
+					"pathName": "pages/logs/logs",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "me",
+					"pathName": "pages/me/me",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "发布",
+					"pathName": "pages/release/release",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "榜单",
+					"pathName": "pages/collect/collect",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "详情",
+					"pathName": "pages/mooddetail/mooddetail",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "完善个人信息",
+					"pathName": "pages/usermsg/usermsg",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "我的心愿清单",
+					"pathName": "pages/mymood/mymood"
+				}
+			]
 		}
 	}
 }

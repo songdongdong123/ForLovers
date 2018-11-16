@@ -1,0 +1,10 @@
+<view class="mooddetail">
+  <view class="title">{{detail.moodtitle}}</view>
+  <view class="time">{{detail.createtime}}</view>
+  <view class="detailcontent">
+    <view class="content" wx:for="{{detail.moodcontent}}" wx:key="unquie">
+      {{item}}
+    </view>
+  </view>
+  <button open-type="share" hover-class="none" bindtap="onShareAppMessage"></button>
+</view>

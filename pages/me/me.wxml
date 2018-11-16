@@ -1,0 +1,19 @@
+<!--pages/me/me.wxml-->
+<view class="account">
+  <image src="{{userInfo.avatarUrl}}" alt=""></image>
+  <text class="nickname">{{userInfo.nickName}}</text>
+</view>
+<view class="fansmsg">
+  <view>
+    <text>关注：0</text>
+  </view>
+  <view>
+    <text>收藏：0</text>
+  </view>
+</view>
+<view class="memsgconatiner">
+  <view class="memsg" wx:for="{{list}}" wx:key="unique" bindtap='goToThis' data-url="{{item.url}}">
+    <text>{{item.name}}</text>
+    <image class="right" src="../../icon/right.png" alt=""></image>
+  </view>
+</view>

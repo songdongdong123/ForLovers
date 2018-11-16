@@ -1,8 +1,0 @@
-<!--logs.wxml-->
-<view class="container log-list">
-  <block >
-    <input placeholder="用户名" auto-focus bindinput="getUsername"/>
-    <input placeholder="年龄" auto-focus bindinput="getUserage"/>
-    <button bindtap="bindButtonTap" bindtap='register'>注册</button>
-  </block>
-</view>

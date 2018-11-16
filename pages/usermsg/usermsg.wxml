@@ -1,0 +1,20 @@
+<view class="usermsg">
+  <view class="phonecontainer">
+    <text>手机号码：</text>
+    <input type="number" placeholder-style="color:#ccc" class="phone" placeholder='请输入手机号码' bindinput='bindInput' data-type='phone' value='{{phone}}'></input>
+  </view>
+  <picker mode="region" bindchange="bindRegionChange" value="{{region}}" custom-item="{{customItem}}">
+    <view class="picker">
+      <view class="labes">省/市/区：</view>
+      <view class="probice" wx:if="{{region.length}}" >
+        <text wx:for="{{region}}" wx:key="unquie">{{item}}</text>
+      </view>
+      <view class="proci" wx:else>请选择(省/市/县)</view>
+    </view>
+  </picker>
+  <view class="addresscontainer">
+    <text>详细地址：</text>
+    <input placeholder-style="color:#ccc" class='address' placeholder='详细地址' bindinput='bindInput' data-type='address' value='{{address}}'></input>
+  </view>
+  <button bindtap='CompletionUser'>提交</button>
+</view>

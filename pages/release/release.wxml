@@ -1,0 +1,14 @@
+<view class='register'>
+  <view class="section">
+    <view class="baseinput">
+      <text>标题：</text>
+      <input  maxlength="10" placeholder="请输入标题" bindinput='bindKeyInput' data-type='title' value='{{title}}'
+      />
+    </view>
+    <view class="basetextarea">
+      <text>正文：</text>
+      <textarea placeholder="请输入你想说的话" auto-height="true" bindinput='bindKeyInput' data-type='content' value='{{content}}'></textarea>
+    </view>
+  </view>
+  <button bindtap='releaseTo'>发布</button>
+</view>

@@ -1,0 +1,51 @@
+page{
+  background: #eee;
+}
+.mymoodlist{
+  margin:auto 20rpx;
+  margin-top: 20rpx;
+}
+.mymooddetail{
+  background: #fff;
+  border-radius: 10rpx;
+  border:1rpx solid #ccc;
+  padding:10rpx;
+  font-size: 15px;
+}
+.mymooddetail:not(:last-child){
+  margin-bottom: 20rpx;
+}
+.moodcontent{
+  font-size: 13px;
+  color:#666;
+  margin:40rpx;
+  height:75rpx;
+  font-size: 12px;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  overflow: hidden;
+  margin-bottom: 0;
+}
+.moodtitle{
+  text-align: center;
+  height: 40px;
+  line-height: 40px;
+  border-bottom:1rpx dashed #ccc;
+}
+.moodmsg{
+  color:#666;
+  font-size: 12px;
+  margin:auto 40rpx;
+  margin-top: 15rpx;
+}
+.moodmsg>text:not(:last-child){
+  margin-right: 25rpx;
+}
+.createtime{
+  text-align: right;
+  color: #999;
+  font-size: 12px;
+  height: 20px;
+  line-height: 20px;
+}

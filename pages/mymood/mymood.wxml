@@ -1,0 +1,14 @@
+<view class="mymood">
+  <view class="mymoodlist">
+    <view class="mymooddetail" bindtap='toMoodDetail' wx:for="{{mymoodlist}}" wx:key="unique" id='{{item.moodid}}'>
+      <view class="moodtitle">{{item.moodtitle}}</view>
+      <view class="moodcontent">{{item.moodcontent}}</view>
+      <view class='moodmsg'>
+        <text>阅读：{{item.readnum}}</text>
+        <text>收藏：{{item.collectnum}}</text>
+        <text>评论：{{item.commentnum}}</text>
+      </view>
+      <view class="createtime">{{item.createtime}}</view>
+    </view>
+  </view>
+</view>
